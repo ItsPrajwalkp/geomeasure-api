@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# SQLite database
+*.db
+
+# Uploaded files
+uploads/
+
+# Test/cache files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+# Local development/test files
+temp_shapefile/
+test_kml.py
+test_zip.py
+create_test_shapefile.py
